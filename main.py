@@ -30,6 +30,8 @@ while running:
             "content": question
         }
     ],
+
+    ## Stop qwen from thinking. Speeds response time.
     think=False
     )
     print(response.message.content)
